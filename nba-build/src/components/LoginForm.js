@@ -1,3 +1,5 @@
+//master!
+
 import React, { useState, useEffect } from "react";
 
 import {  withFormik, Form, Field } from "formik";
@@ -149,6 +151,7 @@ const FormikLoginForm = withFormik({
         .then(response => {
             setStatus(response.data);
             console.log("POST Res", response.data)
+            console.log("response", response)
         })
         .catch(error => console.log("POST Err", error.response));
     }
