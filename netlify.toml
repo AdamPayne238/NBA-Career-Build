@@ -1,7 +1,7 @@
 
 [build]
-base = "AdamsAppName/"
-publish = "AdamsAppName/build/"
+base = "nba-build/"
+publish = "nba-build/build/"
 command = "yarn build"
 
 [[redirects]]
